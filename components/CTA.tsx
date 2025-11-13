@@ -192,8 +192,8 @@ export default function CTA() {
                     <Download className="mr-2 w-5 h-5 group-hover:animate-bounce" />
                     Télécharger l'APK
                   </Button> */}
-
-                  <Link href="https://resilient-crisp-db9835.netlify.app/">
+ 
+                  <Link href="https://cine-dash.netlify.app/">
                     <Button
                       className="border-2 border-white/20 hover:border-red-600 hover:bg-red-600/10 text-white font-semibold px-10 py-7 text-lg group transition-all duration-300"
                     >

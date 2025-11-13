@@ -172,9 +172,9 @@ export default function Hero() {
               CinéDash est la solution complète pour administrer votre salle de cinéma :
               dashboard analytique, gestion de films, organisation de séances et réservations en temps réel.
             </p>
-
+ 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="https://resilient-crisp-db9835.netlify.app/">
+              <Link href="https://cine-dash.netlify.app/">
                 <Button
                   className="bg-red-600 hover:bg-red-700 text-white font-semibold px-8 py-6 text-lg group transition-all duration-300"
                 >
