@@ -179,21 +179,21 @@ const screenshots: { id: number; title: string; description: string; gradient: s
     // Exemple : placez vos images dans `public/screenshots/` puis mettez le chemin ci-dessous
     // ex: src: '/screenshots/dashboard.png'
     // Laissez `src` undefined pour utiliser le visuel actuel (dégradé + placeholder)
-    src: '/screenshots/dashc.png',
+    src: '/screenshots/dashc1.png',
   },
   {
     id: 2,
     title: 'Gestion des Films',
     description: 'Catalogue complet de films',
     gradient: 'from-red-600 to-red-800',
-    src: '/screenshots/gest.png',
+    src: '/screenshots/gest1.png',
   },
   {
     id: 3,
     title: 'Planning des Séances',
     description: 'Organisation temporelle',
     gradient: 'from-gray-700 to-gray-900',
-    src: '/screenshots/seances.png',
+    src: '/screenshots/seances1.png',
   },
   {
     id: 4,

@@ -22,7 +22,8 @@ export default function Footer() {
               La solution professionnelle pour gérer votre salle de cinéma avec efficacité
               et modernité. Dashboard, films, séances et réservations en un seul endroit.
             </p>
-            <div className="flex gap-4">
+            {/* Social media  */}
+            {/* <div className="flex gap-4">
               {['github', 'twitter', 'linkedin'].map((social) => (
                 <a
                   key={social}
@@ -33,10 +34,10 @@ export default function Footer() {
                   <div className="w-5 h-5 bg-white/20 rounded" />
                 </a>
               ))}
-            </div>
+            </div> */}
           </div>
 
-          <div>
+          {/* <div>
             <h3 className="text-white font-semibold mb-4">Navigation</h3>
             <ul className="space-y-3">
               {['Fonctionnalités', 'Documentation', 'Support', 'Blog'].map((item) => (
@@ -79,7 +80,7 @@ export default function Footer() {
                 <span>Cotonou, Benin</span>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
 
         <div className="border-t border-gray-900 pt-8">

@@ -54,10 +54,10 @@ export default function CTA() {
               </div>
 
               <div className="text-center">
-                <div className="inline-flex items-center gap-2 bg-red-600/10 border border-red-600/20 rounded-full px-4 py-2 mb-6">
+                {/* <div className="inline-flex items-center gap-2 bg-red-600/10 border border-red-600/20 rounded-full px-4 py-2 mb-6">
                   <div className="w-2 h-2 bg-red-500 rounded-full animate-pulse" />
                   <span className="text-sm text-red-400 font-medium">Disponible maintenant</span>
-                </div>
+                </div> */}
 
                 <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6 leading-tight">
                   Prêt à transformer
@@ -66,8 +66,10 @@ export default function CTA() {
                 </h2>
 
                 <p className="text-lg sm:text-xl text-gray-400 mb-10 max-w-2xl mx-auto leading-relaxed">
-                  Rejoignez les centaines de cinémas qui utilisent déjà CinéDash pour optimiser
-                  leur gestion quotidienne et améliorer l'expérience de leurs clients.
+                  {/* Rejoignez les centaines de cinémas qui utilisent déjà CinéDash pour optimiser
+                  leur gestion quotidienne et améliorer l'expérience de leurs clients. */}
+                  Rejoignez nous pour mieux gérer votre salle de cinéma 
+                  et améliorer l'expérience de vos clients.
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -78,7 +80,7 @@ export default function CTA() {
                     Télécharger l'APK
                   </Button> */}
  
-                  <Link href="https://cinedash.netlify.app/">
+                  <Link href="https://cine-dash-suug.vercel.app/">
                     <Button
                       className="border-2 border-white/20 hover:border-red-600 hover:bg-red-600/10 text-white font-semibold px-10 py-7 text-lg group transition-all duration-300"
                     >

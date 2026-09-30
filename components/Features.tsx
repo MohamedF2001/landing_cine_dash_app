@@ -113,7 +113,7 @@ export default function Features() {
           ))}
         </div>
 
-        <div className="mt-16 text-center">
+        {/* <div className="mt-16 text-center">
           <div className="inline-flex items-center gap-8 bg-gradient-to-r from-gray-900 to-black border border-gray-800 rounded-full px-8 py-4">
             {[
               { label: 'Temps réel', value: '100%' },
@@ -131,7 +131,7 @@ export default function Features() {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
